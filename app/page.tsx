@@ -70,6 +70,93 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section
+        id="skills"
+        className="border-t border-gray-200 bg-white px-6 py-24"
+      >
+        <div className="mx-auto w-full max-w-3xl">
+          <h2 className="mb-10 text-3xl font-bold">Skills</h2>
+
+          <div className="mb-8">
+            <p className="mb-3 text-sm text-gray-500">
+              メイン経験(10年)・コーディング
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                HTML
+              </span>
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                CSS
+              </span>
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                JavaScript
+              </span>
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                WordPress
+              </span>
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                PHP
+              </span>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <p className="mb-3 text-sm text-gray-500">
+              メイン経験(10年)・デザイン & 映像
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                Illustrator
+              </span>
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                Photoshop
+              </span>
+              <span className="rounded-md bg-blue-50 px-3 py-1 text-sm text-blue-900">
+                Premiere Pro
+              </span>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <p className="mb-3 text-sm text-gray-500">現在学習中(2026年〜)</p>
+            <div className="flex flex-wrap gap-2">
+              <span className="rounded-md bg-emerald-50 px-3 py-1 text-sm text-emerald-900">
+                Next.js
+              </span>
+              <span className="rounded-md bg-emerald-50 px-3 py-1 text-sm text-emerald-900">
+                TypeScript
+              </span>
+              <span className="rounded-md bg-emerald-50 px-3 py-1 text-sm text-emerald-900">
+                React
+              </span>
+              <span className="rounded-md bg-emerald-50 px-3 py-1 text-sm text-emerald-900">
+                Tailwind CSS
+              </span>
+              <span className="rounded-md bg-emerald-50 px-3 py-1 text-sm text-emerald-900">
+                Python
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <p className="mb-3 text-sm text-gray-500">AI活用ツール(日常使用)</p>
+            <div className="flex flex-wrap gap-2">
+              <span className="rounded-md bg-violet-50 px-3 py-1 text-sm text-violet-900">
+                Claude
+              </span>
+              <span className="rounded-md bg-violet-50 px-3 py-1 text-sm text-violet-900">
+                ChatGPT
+              </span>
+              <span className="rounded-md bg-violet-50 px-3 py-1 text-sm text-violet-900">
+                GitHub Copilot
+              </span>
+              <span className="rounded-md bg-violet-50 px-3 py-1 text-sm text-violet-900">
+                Cursor
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Contact セクション */}
       <section
         id="contact"
