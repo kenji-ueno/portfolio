@@ -70,6 +70,98 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Contact セクション */}
+      <section
+        id="contact"
+        className="px-6 py-24 border-t border-gray-200 bg-gray-50"
+      >
+        <div className="max-w-3xl w-full mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+            Contact
+          </h2>
+          <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-10">
+            採用・業務委託のご相談、技術的なご質問など、
+            お気軽にお問い合わせください。
+          </p>
+
+          <form
+            action="https://formspree.io/f/xlgzppjr"
+            method="POST"
+            className="space-y-6"
+          >
+            <div>
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-900 mb-2"
+              >
+                お名前
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-900 mb-2"
+              >
+                メールアドレス
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="subject"
+                className="block text-sm font-medium text-gray-900 mb-2"
+              >
+                件名
+              </label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-900 mb-2"
+              >
+                メッセージ
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows={6}
+                required
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent resize-y"
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="inline-block px-8 py-3 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
+            >
+              送信する
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
   );
 }
