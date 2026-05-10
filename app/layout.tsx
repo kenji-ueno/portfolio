@@ -14,9 +14,34 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kenji Ueno | Web制作10年×AI活用エンジニア",
-  description: "Web制作10年の経験を土台に、Next.js / TypeScript / AI活用へとキャリアを広げるエンジニアのポートフォリオ。Hero・About・Skills・Worksから人柄と技術の両面を伝えます。",
+  description:
+    "Web制作10年の経験を土台に、Next.js / TypeScript / AI活用へとキャリアを広げるエンジニアのポートフォリオ。Hero・About・Skills・Worksから人柄と技術の両面を伝えます。",
   verification: {
     google: "WwbAXunl4iiy3BOZGgxC009hYP-jY1lf3HAb90TmqMc",
+  },
+  openGraph: {
+    title: "Kenji Ueno | Web制作10年×AI活用エンジニア",
+    description:
+      "Web制作10年の経験を土台に、Next.js / TypeScript / AI活用へとキャリアを広げるエンジニアのポートフォリオ。",
+    url: "https://portfolio-dun-zeta-34.vercel.app/",
+    siteName: "Kenji Ueno Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kenji Ueno — Craft meets AI",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kenji Ueno | Web制作10年×AI活用エンジニア",
+    description:
+      "Web制作10年の経験を土台に、Next.js / TypeScript / AI活用へとキャリアを広げるエンジニアのポートフォリオ。",
+    images: ["/og-image.png"],
   },
 };
 
